@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expense Dashboard test should correctly render Expense dashboard when logged in 1`] = `
+<div>
+  <Header />
+  <Connect(ExpensesSummary) />
+  <Connect(ExpenseListFilters) />
+  <Connect(ExpenseList) />
+</div>
+`;
+
+exports[`Expense Dashboard test should redirect if no valid user found 1`] = `
+<div>
+  <Redirect
+    to="/"
+  />
+</div>
+`;
+
+exports[`Expense Dashboard test should show LoadingPage if Dashboard not yet loaded 1`] = `
+<div>
+  <LoadingPage />
+</div>
+`;

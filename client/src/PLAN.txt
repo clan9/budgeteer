@@ -1,0 +1,34 @@
+set up actions, reducers and store
+setup login page and redirect to /dash
+
+manually test all actions to make sure that
+state is being updated correctly (expense id's etc)
+
+work out where to call actions from:
+
+think fetchUser will be expenseDashboardPage
+getExpenses on ExpenseListPage
+editExpense on EditExpensePage
+addExpense on AddExpensePage
+removeExpense will be on the ExpenseForm ?
+
+For the fetchUser and getExpenses actions, these will be called
+from a lifecycle method (I think) -> componentDidMount
+
+(If it works, could refactor from class to stateless functional
+component and try the useEffect hook)
+
+Think through what happens re redux store -> if these are connected
+components (and use mapStateToProps) then componentDidMount should be fine since after initial load of data, any further changes in state
+will be reflected.
+
+All going well (yeah right!) fill out the components and sort out the 
+routing
+
+Will need to set up auth state so we are able to use public/private 
+routes.
+
+*** If there's any issues with the server side -> remember to look at 
+the refactored code in the expenses router (getUserExpense function) ***
+
+

@@ -1,0 +1,15 @@
+.hide-on-desktop {
+  // if viewport width is >= desktop-bp, don't show component
+  // used to hide extra 'expenses' div
+  @media (min-width: $desktop-bp) {
+    display: none;
+  }
+}
+
+.hide-on-mobile {
+  // if viewport width is less than desktop-bp , don't show component(s)
+  // used to hide one 'expenses' div and the 'amount' div
+  @media (max-width: $desktop-bp - 0.01rem) {
+    display: none;
+  }
+}

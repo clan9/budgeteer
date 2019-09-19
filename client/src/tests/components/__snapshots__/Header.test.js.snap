@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Header component should render Header component correctly 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="content-container"
+  >
+    <div
+      className="header__content"
+    >
+      <Link
+        className="header__title"
+        to="/dash"
+      >
+        <h1>
+          Budgeteer
+        </h1>
+      </Link>
+      <a
+        className="button button--link"
+        href="/auth/logout"
+      >
+        Logout
+      </a>
+    </div>
+  </div>
+</header>
+`;

@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpenseList component should correctly render a list of expenses 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <ExpenseListItem
+      _id="1"
+      amount={195}
+      createdAt={0}
+      description="Gum"
+      key="1"
+      note=""
+    />
+    <ExpenseListItem
+      _id="2"
+      amount={109500}
+      createdAt={-345600000}
+      description="Rent"
+      key="2"
+      note=""
+    />
+    <ExpenseListItem
+      _id="3"
+      amount={4500}
+      createdAt={345600000}
+      description="Credit Card"
+      key="3"
+      note=""
+    />
+  </div>
+</div>
+`;
+
+exports[`ExpenseList component should render the no-expenses message 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="list-item list-item--message"
+    >
+      <span>
+        No expenses
+      </span>
+    </div>
+  </div>
+</div>
+`;

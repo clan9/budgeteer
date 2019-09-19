@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundPage component should render the not found page correctly 1`] = `
+<div>
+  <Link
+    to="/"
+  >
+    <h3>
+      Sorry, page not found. Click here to go to the home page
+    </h3>
+  </Link>
+</div>
+`;
